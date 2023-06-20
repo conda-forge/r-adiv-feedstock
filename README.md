@@ -1,11 +1,11 @@
-About r-adiv
-============
+About r-adiv-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-adiv-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=adiv
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-adiv-feedstock/blob/main/LICENSE.txt)
 
 Summary: Functions, data sets and examples for the calculation of various indices of biodiversity including species, functional and phylogenetic diversity. Part of the indices are expressed in terms of equivalent numbers of species. The package also provides ways to partition biodiversity across spatial or temporal scales (alpha, beta, gamma diversities). In addition to the quantification of biodiversity, ordination approaches are available which rely on diversity indices and allow the detailed identification of species, functional or phylogenetic differences between communities.
 
