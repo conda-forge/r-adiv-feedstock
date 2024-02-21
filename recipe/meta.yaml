@@ -1,4 +1,4 @@
-{% set version = '2.2' %}
+{% set version = "2.2.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/adiv_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/adiv/adiv_{{ version }}.tar.gz
-  sha256: 799a776deb0316333f44e184300dae1a4fc92256922c9e33d10ae6c8b99ebe62
+  sha256: 64def237ef86a290cfe0f0e3f1be7fd5ee1d36eedda3b4e1a61db32bbd250573
 
 build:
   merge_build_host: true  # [win]
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -58,13 +58,8 @@ test:
 about:
   home: https://CRAN.R-project.org/package=adiv
   license: GPL-2.0-or-later
-  summary: Functions, data sets and examples for the calculation of various indices of biodiversity
-    including species, functional and phylogenetic diversity. Part of the indices are
-    expressed in terms of equivalent numbers of species. The package also provides ways
-    to partition biodiversity across spatial or temporal scales (alpha, beta, gamma
-    diversities). In addition to the quantification of biodiversity, ordination approaches
-    are available which rely on diversity indices and allow the detailed identification
-    of species, functional or phylogenetic differences between communities.
+  summary: Functions, data sets and examples for the calculation of various indices of biodiversity including species, functional and phylogenetic diversity. Part of the indices are expressed in terms of equivalent numbers of species. The package also provides ways to partition biodiversity across spatial or temporal scales
+    (alpha, beta, gamma diversities). In addition to the quantification of biodiversity, ordination approaches are available which rely on diversity indices and allow the detailed identification of species, functional or phylogenetic differences between communities.
   license_family: GPL2
   license_file:
     - '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'
