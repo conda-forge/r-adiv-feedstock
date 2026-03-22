@@ -32,7 +32,6 @@ requirements:
     - r-phylobase
     - r-phytools
     - r-rgl
-    - libgl-devel                    # [linux]
   run:
     - r-base >=4.0
     - r-ade4
