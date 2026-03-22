@@ -23,7 +23,7 @@ requirements:
     - {{ posix }}zip                 # [win]
     - cross-r-base {{ r_base }}      # [build_platform != target_platform]
   host:
-    - r-base >=4.0
+    - r-base
     - r-ade4
     - r-adegraphics
     - r-ape
@@ -33,7 +33,7 @@ requirements:
     - r-phytools
     - r-rgl
   run:
-    - r-base >=4.0
+    - r-base
     - r-ade4
     - r-adegraphics
     - r-ape
